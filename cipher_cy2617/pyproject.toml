@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "cipher-cy2617"
+version = "0.1.0"
+description = "Python package for caeser cipher"
+authors = ["ChoLaamY <cy2617@columbia.edu>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "cipher_cy2617"}]
+
+[tool.poetry.dependencies]
+python = "3.9"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+pytest-cov = "^4.0.0"
+codecov = "^2.1.12"
+python-semantic-release = "^7.32.2"
+flake8 = "^5.0.4"
+Sphinx = "^5.3.0"
+sphinxcontrib-napoleon = "^0.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
