@@ -1,5 +1,13 @@
-from cipher_cy2617 import __version__
 from cipher_cy2617 import cipher_cy2617
+import numpy as np
 
-def test_version():
-    assert __version__ == 0.1.0
+
+# integration test
+def test_cipher_integration():
+    test_str = 'American Pie'
+    shift_values = np.arange(1, 11)
+
+    for i in shift_values:
+        test_encrypt = cipher_cy2617.cipher(test_str, i, encrypt=True)
+        test_decrypt = cipher_cy2617.cipher(test_encrypt, i, encrypt=False)
+        assert test_str == test_decrypt
