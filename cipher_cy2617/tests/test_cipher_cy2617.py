@@ -1,7 +1,6 @@
 from cipher_cy2617 import cipher_cy2617
 import numpy as np
 
-
 # integration test
 def test_cipher_integration():
     test_str = 'American Pie'
