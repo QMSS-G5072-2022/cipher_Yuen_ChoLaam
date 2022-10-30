@@ -24,7 +24,7 @@ $ pip install -i https://test.pypi.org/simple/ cipher_cy2617
 
 ## Documentation
 
-The official documentation is hosted on Read the Docs: https://cipher_cy2617.readthedocs.io/en/latest/
+The official documentation is hosted on Read the Docs: https://cipher-yuen-cholaam.readthedocs.io/en/latest/
 
 ## Contributors
 
